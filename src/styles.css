@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Quicksand&display=swap");
+
+body {
+  background-color: #90b5c5;
+  font-family: "Quicksand", sans-serif;
+  padding: 2rem;
+}
+
+.part {
+  text-align: center;
+  color: rgb(66, 66, 66);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: #fff2f5;
+  border-radius: 10px;
+  height: calc(75% * vh);
+  border: 1rem solid rgba(196, 196, 196, 0.699);
+}
+
+.site-title {
+  font-size: 5rem;
+  color: rgba(209, 0, 0, 0.836);
+  font-family: "Parisienne", cursive;
+}
+
+.site-title:hover {
+  color: rgb(255, 4, 4);
+  position: relative;
+  cursor: default;
+}
+
+.ofera::after {
+  content: "❤️";
+}
+
+.ofera:hover::after {
+  content: "💗";
+}
+
+.alege-imaginea::after {
+  content: "📷";
+}
+
+.alege-imaginea:hover::after {
+  content: "📸";
+}
+
+.gallery {
+  display: flex;
+  align-items: space-around;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.imagine-floare {
+  width: 30%;
+  margin-bottom: 1rem;
+  opacity: 20%;
+  margin: 10px;
+}
+
+.imagine-floare:hover {
+  opacity: 100%;
+  border: 10px solid rgba(126, 197, 255, 0.534);
+  border-radius: 10px;
+  margin: 0px;
+}
+
+.imagine-aleasa {
+  border: 10px solid pink;
+  border-radius: 10px;
+  margin: 0px;
+  opacity: 100%;
+}
+
+.imagine-aleasa:hover {
+  border: 10px solid pink;
+  border-radius: 10px;
+  margin: 0px;
+  opacity: 100%;
+}
+
+.alege-mesajul::after {
+  content: "📄";
+}
+
+.alege-mesajul:hover::after {
+  content: "📝";
+}
+
+.alege-mesajul:hover {
+  padding-left: 4px;
+}
+
+textarea {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 5px solid #ccc;
+  background-color: grey;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #999;
+  width: 50vw;
+  height: 25vh;
+}
+
+textarea:hover,
+.alege-destinatar:hover {
+  border-color: rgba(126, 197, 255, 0.534);
+}
+
+textarea:focus,
+.alege-destinatar:focus {
+  border-color: pink;
+}
+
+.caractere {
+  color: Red;
+}
+
+.alege-destinatarul::after {
+  content: "📬";
+}
+
+.alege-destinatarul:hover::after {
+  content: "💌";
+}
+
+.alege-destinatarul:hover {
+  padding-left: 1px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.catre {
+  margin: 0.5rem;
+}
+
+.alege-destinatar {
+  margin: 0.5rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3.5px solid #ccc;
+  background-color: grey;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #999;
+  width: 25vw;
+}
+
+.transmitere {
+  margin: 0.5rem;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  padding: 7px 10px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: rgba(116, 176, 224, 0.534);
+  color: rgb(61, 61, 61);
+  outline: none;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #999;
+  font-weight: 700;
+}
+
+.transmitere:hover {
+  background-color: rgba(209, 0, 0, 0.836);
+  border-color: rgb(49, 49, 49);
+  color: white;
+  box-shadow: 0px 3px 3px rgba(19, 19, 19, 0.4);
+}
